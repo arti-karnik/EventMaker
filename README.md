@@ -60,7 +60,7 @@ Install NodeJS
 ## Install:
 <strong>Code installation:</strong> <br>
 $ cd [path_to_save_codebase] <br>
-$ git clone https://github.com/amcourson/project_2_team_5<br>
+$ git clone https://github.com/arti-karnik/EventMaker<br>
 
 Add env file: <br>
 Go to Folder, add new file name it as .env <br>
@@ -90,7 +90,7 @@ This app uses the basic functionality of any common website but also allows user
 see what events they are attending as well as add to the potluck and gift registery depending on event. <br>
 
 ## Codebase
-Github Repo: https://github.com/amcourson/project_2_team_5 
+Github Repo: https://github.com/arti-karnik/EventMaker
 
 
 ## Application Walk-through
@@ -119,4 +119,4 @@ Please contact creators of the app.
 <strong> License </strong>
 MIT licenses
 
-© Angelica Courson, Arti Karnik, Brandon Andreae, Brodi Russell
+© Arti Karnik
