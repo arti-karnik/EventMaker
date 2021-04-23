@@ -1,0 +1,14 @@
+<div class="container-dashboard">
+{{#if events.length}}
+    <h1 class="page-title"> My Invitations </h1>
+    {{#each events as |event|}}
+        {{> Eventinfo_Invitation event firstname=event.user.firstname lastname=event.user.lastname}}
+    {{/each}}
+{{else}}
+    <h1 class="page-title"> You don't have any Invitations </h1>
+{{/if}}
+</div>
+
+
+
+

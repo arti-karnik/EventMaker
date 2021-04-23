@@ -1,0 +1,38 @@
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#rsvpModal">
+  RSVP
+</button>
+<div class="modal fade" id="rsvpModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title modal-label">RSVP</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <form id="form-rsvp">
+            <div class="form-rsvp form-group">                
+                Would you be joining ?<br/>
+                <input type="radio" id="yes" value="YES" name="rsvp" class="rsvp-option" checked="true"> YES <br/>
+                <input type="radio" id="no" value="NO" name="rsvp" class="rsvp-option"> NO<br/>
+                <input type="radio" id="maybe" value="MAY BE" name="rsvp" class="rsvp-option">May Be<br/>
+            </div>
+
+            <div class="form-group">
+              <strong>Adult count </strong>
+                <input class="modal-label" type="number" id="adult-count" min="1" max="5" value="2"> <br/>
+               <strong>Kids count </strong>
+             <input class="modal-label" id="kids-count" type="number" min="1" max="5" value="0">
+            </div>
+        </form>
+    </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" id="saveRSVP" data-dismiss="modal">Save changes</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+
